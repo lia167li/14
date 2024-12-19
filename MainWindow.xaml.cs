@@ -15,23 +15,23 @@ namespace WpfApp2
         }
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
-            string userLogin = "Aboba";
-            string userPassword = "Lashped";
+            string userLogin = "you";
+            string userPassword = "kipul";
 
             if (string.IsNullOrEmpty(TbLogin.Text) && string.IsNullOrEmpty(PbPSW.Password))
             {
-                MessageBox.Show("Net!");
+                MessageBox.Show("No");
 
             }
             else
             {
                 if (TbLogin.Text == userLogin && PbPSW.Password == userPassword)
                 {
-                    MessageBox.Show("Povezlo!");
+                    MessageBox.Show("Yee");
                 }
                 else
                 {
-                    MessageBox.Show("Net2");
+                    MessageBox.Show("Noo");
                 }
 
 
